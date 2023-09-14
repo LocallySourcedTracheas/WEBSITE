@@ -1,0 +1,271 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Nav Bar */
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top:10px;
+  /*background-color: teal;*/
+  font-weight: bold;
+  color:#392f5a
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color:#392f5a
+}
+
+/* LOGO */
+.logo {
+  font-size: 20px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: inline-flex;
+  gap: 3.5em;
+  font-size: 17px;
+}
+
+a:hover {
+  border-radius: 10px;
+  background-color: #fff8f0;
+}
+/*------------------------------------
+3 box colors with Vanessa Junco */
+
+.container{
+        position: relative;
+        margin-top: 15px;
+        padding-bottom:200px;
+        margin-right: 100px;
+        margin-left: 200px;
+        
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+
+    }
+
+    .orange{
+        border-radius: 25px;
+        border: .7px solid #595959;
+        background: #ff8811;
+        padding: 20px;
+        width: 6.53in;
+        height: 2.25in;
+        z-index: 1;
+    }
+    .yellow{
+        border-radius: 25px;
+        border: .7px solid #595959;
+        background: #f4d06f;
+        padding: 20px;
+        width: 6.3in;
+        height: 2.02in;
+        z-index: 2;
+    }
+    .white{
+        border-radius: 25px;
+        border: .7px solid #595959;
+        background: #fff8f0;
+        padding: 20px;
+        width: 6.04in;
+        height: 1.76in;
+        z-index: 3;
+        text-align: center;
+    }
+
+/*------------------------------------
+Mini boxes */
+
+.miniBox{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius:13px;
+  border: .7px solid #595959;
+  width:1.69in;
+  height:0.61in;
+  background: #fff8f0;
+  color:#392f5a;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.miniBox2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius:13px;
+  border: .7px solid #595959;
+  width:1.69in;
+  height:0.61in;
+  background: #fff8f0;
+  color:#392f5a;
+  text-align: center;
+  margin-top: 240px;
+
+}
+
+
+/*------------------------------------
+About Me */
+
+.miniBox3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius:13px;
+  border: .7px solid #595959;
+  width:1.69in;
+  height:0.61in;
+  background: #fff8f0;
+  color:#392f5a;
+  text-align: center;
+  margin-top: 500px;
+
+}
+
+.abt_me_container{
+  border-radius:13px;
+  background:#fff8f0;
+  margin-top: 470px;
+  border: .7px solid #595959;
+}
+
+.image-container { /**this is the text container */
+    margin:50px;
+    display: flex; /* Use flexbox for easy alignment */
+    vertical-align: top;
+    align-items: top; /* Vertically align contents */
+    padding-top: 0px;
+    
+}
+  
+.image-container img {
+    max-width: 150px; /* Adjust the image width as needed */
+    max-height: 150px;
+    margin-right: 25px;
+    margin-top: 20px; /* Add some space between image and 
+  text */
+
+}
+ /* use this class for container based web design */
+.abt_me{
+  width: 500px;
+  
+  padding: 10px;
+  margin-bottom: 100px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  text-align: center;
+
+  margin-left: 1px;
+}
+
+/*------------------------------------
+RESUME */
+
+.miniBox4{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius:13px;
+  border: .7px solid #595959;
+  width:1.69in;
+  height:0.61in;
+  background: #fff8f0;
+  color:#392f5a;
+  text-align: center;
+  
+  margin-top: 1200px;
+}
+/*------------------------------------
+Projects */
+
+.miniBox5{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius:13px;
+  border: .7px solid #595959;
+  width:1.69in;
+  height:0.61in;
+  background: #fff8f0;
+  color:#392f5a;
+  text-align: center;
+  
+  margin-top: 1200px;
+}
+
+.project{
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 100px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  text-align: center;
+  color:#392f5a;
+  margin-top: 200px;
+}
+
+.project img{
+    max-width: 150px; /* Adjust the image width as needed */
+    max-height: 150px;
+}
+
+/*------------------------------------
+Misc. */
+.center-text{
+    text-align: center;
+}
+
+.left-text{
+  text-align: left;
+}
+
+
+section {
+  margin: 200px 200px 200px 200px;
+  /*border: 1px solid #dd7878;*/
+  align-items: center;
+}
+
+body{
+  background-color: #9dd9d2;
+  font-family: Arial;
+}
+
+
+
+
+.thick{
+  font-size: 50px;
+  color:#392f5a;
+  font-weight: bold;
+  text-align: match-parent;
+}
+
+
+
+
+
